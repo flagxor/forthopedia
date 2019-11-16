@@ -29,7 +29,7 @@ the most recent definition.
 
 Introduced in ANSForth94, to align with common practice.
 
-Open Question: Why was VLIST not sufficient?
+**Open Question:** Why was VLIST not sufficient?
 
 ## Boolean and Logical Inverse 
 
@@ -72,3 +72,35 @@ Introduced in ANSForth94 to avoid edge cases like:
 .( )   5 .
 ```
 
+## Creating defining words
+
+### <BUILDS DOES>
+
+TODO
+
+### CREATE DOES>
+
+TODO
+
+## Representing a character code
+
+### ASCII
+
+```
+ASCII <char> ( leaves code for <char> on the stack )
+```
+
+Multimodal word, works when compiling or interpreting.
+
+Introduced in Forth-83.
+
+### CHAR [CHAR]
+
+```
+CHAR <char> ( interpret time leave code for <char> on the stack )
+[CHAR] <char> ( compile time leave code for <char> on the stack )
+```
+
+**Open Question:** Why was this introduced in place of ASCII?
+
+Introduced in ANSForth94.
