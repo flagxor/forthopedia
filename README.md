@@ -40,14 +40,18 @@ Introduced in ANSForth94 to replace NOT.
 ### NOT
 
 Forth-79 --- Equivalent to 0=
+
 Forth-83 --- Equivalent to -1 XOR
+
 ANSForth94 --- Deprecated due to confusion
 
 ## Parsing input stream
 
 ### WORD
 
+```
 WORD ( delimiter -- a )
+```
 
 Parse one word, skipping delimiter until non-delimiter and then parsing to the
 next instance.
@@ -56,7 +60,9 @@ Introduced in Forth-79.
 
 ### PARSE
 
+```
 PARSE ( delimiter -- a n )
+```
 
 Introduced in ANSForth94 to avoid edge cases like:
 
