@@ -18,6 +18,15 @@ from these many variants.
 The structure and organization of this document will need to involve as more
 content is added. For the moment, it will be structured by topic.
 
+## Forth Standards
+
+There are the following canonical Forth standards:
+
+* [[Forth-79][https://www.complang.tuwien.ac.at/forth/fth79std/FORTH-79.TXT]
+* [[Forth-83][https://www.complang.tuwien.ac.at/forth/fth83std/FORTH83.TXT]]
+* [[ANSForth94][http://lars.nocrew.org/dpans/dpansf.htm]]
+* [[Forth200x][http://forth-standard.org/standard/alpha]]
+
 ## Listing known words
 
 ### VLIST
